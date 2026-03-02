@@ -1,0 +1,6 @@
+*   c099b95 merge v1 ke v2
+|\  
+| * a725fee docs: update versi 1
+* | 2ffc32f docs: update versi 2
+|/  
+* 45a18bb inisiasi github
