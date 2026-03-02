@@ -1,0 +1,23 @@
+    1  jj
+    2  uname -sr && whoami
+    3  sudo apt update
+    4  sudo apt install build-essential
+    5  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+    6  which g++>compiler_trace.log&&g++ --version|head -n 1 >> sompiler_trace.log
+    7  ls
+    8  mkdir recovery_ops
+    9  cd recovery_ops
+   10  wget https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+   11  cat system_raw.txt | head -n 1260 | tail -n 11 > recovered_sector.txt
+   12  ls
+   13  rm system_raw.txt
+   14  ls
+   15  code .
+   16  sudo sh -c 'echo :WSLInterop:M::/init:PF > /usr/lib/binfmt.d/WSLInterop.conf'
+   17  sudo systemctl restart systemd-binfmt
+   18  wsl --shutdown
+   19  cd recover_ops
+   20  cd recovery_ops
+   21  ls
+   22  code .
+   23  history | tail -n 30 > history_audit.txt
